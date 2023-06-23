@@ -198,6 +198,11 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
+"@buddy-technology/offer-component@^0.2.6":
+  version "0.2.6"
+  resolved "https://npm.pkg.github.com/download/@Buddy-Technology/offer-component/0.2.6/af19859c1c9c5d8f284f141d66c527b1f3cf47f8#af19859c1c9c5d8f284f141d66c527b1f3cf47f8"
+  integrity sha512-e6I9La7eXbCQSc69MNOxTdCjxeq5HzyoXIN8DDcLGI05b7h00RIyF+uMLr9674/mtyeOZLgGPcXSUTVx1sIc7w==
+
 "@eslint-community/eslint-utils@^4.2.0":
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz#a23514e8fb9af1269d5f7788aa556798d61c6b59"
@@ -1596,6 +1601,11 @@ convert-source-map@^1.7.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-1.9.0.tgz#7faae62353fb4213366d0ca98358d22e8368b05f"
   integrity sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==
+
+core-js@^3.31.0:
+  version "3.31.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.31.0.tgz#4471dd33e366c79d8c0977ed2d940821719db344"
+  integrity sha512-NIp2TQSGfR6ba5aalZD+ZQ1fSxGhDo/s1w0nx3RYzf2pnJxt7YynxFlFScP6eV7+GZsKO95NSjGxyJsU3DZgeQ==
 
 cross-spawn@^7.0.2:
   version "7.0.3"
