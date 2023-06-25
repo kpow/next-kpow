@@ -1,11 +1,20 @@
 import Head from "next/head"
 import Link from "next/link"
 import BuddyOfferElement from '@buddy-technology/offer-component';
-import { themeBase, themeAlt } from '../../ions/ion_assets/allstate/auto/as-auto-css'
+import { themeBase, themeAlt } from '../styles/as-auto-css'
 
 import { siteConfig } from "@/config/site"
 import { Layout } from "@/components/layout"
 import { buttonVariants } from "@/components/ui/button"
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+
 
 const options = {
   partnerID: 'p-buddytest',
@@ -18,7 +27,7 @@ const options = {
     src: 'https://s3.amazonaws.com/embed.buddy.insure/allstate/auto/allstate-seeklogo.com.svg',
   },
   // data passed in here helps to pre-populate the data fields so you don't have to type all of the information in. These values can be changed either in the script here or by the user in the browser itself. 
-  theme: themeAlt,
+  theme: themeBase,
   data: {
     "policy": {
       "state": "VA",
@@ -104,15 +113,21 @@ export default function IndexPage() {
           </h1>
         </div>
         <div className="flex gap-4">
-
+          <Dialog>
+            <DialogTrigger>Open</DialogTrigger>
+            <DialogContent className="DialogContent">
+              <BuddyOfferElement
+                ion={options.ion}
+                partnerID={options.partnerID}
+                theme={options.theme}
+                data={options.data}
+                stage="TESTING"
+              />
+            </DialogContent>
+          </Dialog>
         </div>
 
-        <BuddyOfferElement
-          ion={options.ion}
-          partnerID={options.partnerID}
-          theme={options.theme}
-          data={options.data}
-        />
+
       </section>
     </Layout>
   )
