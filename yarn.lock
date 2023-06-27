@@ -198,10 +198,10 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@buddy-technology/offer-component@^0.2.6":
-  version "0.2.6"
-  resolved "https://npm.pkg.github.com/download/@Buddy-Technology/offer-component/0.2.6/af19859c1c9c5d8f284f141d66c527b1f3cf47f8#af19859c1c9c5d8f284f141d66c527b1f3cf47f8"
-  integrity sha512-e6I9La7eXbCQSc69MNOxTdCjxeq5HzyoXIN8DDcLGI05b7h00RIyF+uMLr9674/mtyeOZLgGPcXSUTVx1sIc7w==
+"@buddy-technology/offer-component@^0.3.1":
+  version "0.3.1"
+  resolved "https://npm.pkg.github.com/download/@Buddy-Technology/offer-component/0.3.1/30ba5a394308926cbadc473064ac79d7ef7bc636#30ba5a394308926cbadc473064ac79d7ef7bc636"
+  integrity sha512-3aUukOAgSsGpUZMfh+kaw2q97hyzwp/20g7K5Gohj7mOKh2XJwmDT/Cf1S6txJ87pCzJ2EOzPC/rZNJyZDPAFA==
 
 "@eslint-community/eslint-utils@^4.2.0":
   version "4.4.0"
