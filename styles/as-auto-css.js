@@ -1811,3 +1811,5 @@ const themeAlt = {
 		}
 	}
 };
+
+export { themeBase, themeAlt }
