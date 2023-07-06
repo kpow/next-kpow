@@ -913,33 +913,23 @@ export default function IndexPage() {
             Offer Element
           </h1>
         </div>
-        <div className="flex gap-4">
-          <Dialog>
-            <DialogTrigger>Open</DialogTrigger>
-            <DialogContent className="DialogContent">
-              <BuddyOfferElement
-                ion={options.ion}
-                partnerID={options.partnerID}
-                theme={options.theme}
-                data={options.data}
-                stage="TESTING"
-              />
-            </DialogContent>
-          </Dialog>
-        </div>
-        <div className="flex gap-4">
-          <Dialog>
-            <DialogTrigger>Open</DialogTrigger>
-            <DialogContent className="DialogContent">
-              <BuddyOfferElement
-                ion="PCU_WORLDEXPLORER_IN"
-                partnerID="insured-nomads"
-                stage="PRODUCTION"
-                theme={themePCU}
-              />
-            </DialogContent>
-          </Dialog>
-        </div>
+
+        <Dialog>
+          <DialogTrigger>
+            <img src="/realtor.png" />
+          </DialogTrigger>
+          <DialogContent className="DialogContent">
+            <BuddyOfferElement
+              ion={options.ion}
+              partnerID={options.partnerID}
+              theme={options.theme}
+              data={options.data}
+              stage="TESTING"
+            />
+          </DialogContent>
+        </Dialog>
+
+
 
 
       </section>
