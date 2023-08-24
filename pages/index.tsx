@@ -19,7 +19,7 @@ import {
 const options = {
   partnerID: 'p-buddytest',
   ion: 'ALLSTATE_AUTO',
-  stage: 'TESTING',
+  stage: 'STAGING',
   // Here you can see we are applying the Allstate logo and changing the link to reference allstate.com
   logoOverride: {
     url: 'https://allstate.com',
@@ -918,7 +918,7 @@ export default function IndexPage() {
               partnerID={options.partnerID}
               theme={options.theme}
               data={options.data}
-              stage="TESTING"
+              stage="STAGING"
             />
           </DialogContent>
         </Dialog>
